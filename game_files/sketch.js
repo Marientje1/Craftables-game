@@ -5,6 +5,10 @@ function setup() {
 
 }
 
-function draw() {
+function preload() {
+  img = loadImage('./background.png');
+}
 
+function draw() {
+  image(img, WIDTH, HEIGHT);
 }
